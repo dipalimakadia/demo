@@ -1,13 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "name": [
+    { "id": 1, "title": "Apple" },
+    { "id": 2, "title": "Samsung" },
+    { "id": 3, "title": "Dell" },
+    { "id": 4, "title": "HP" },
+    { "id": 5, "title": "Lenovo" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "price": [
+    { "id": 1, "price": "75,000", "nameId": 1 },
+    { "id": 2, "price": "60,000", "nameId": 1 },
+    { "id": 3, "price": "80,530", "nameId": 1 },
+    { "id": 4, "price": "65,700", "nameId": 1 },
+    { "id": 5, "price": "45,392", "nameId": 1 }
   ],
+  "image": [
+    { "id": 1, "url": "https://icdn7.digitaltrends.com/image/applemacbook-review-lid.jpg", "nameId": 1 },
+    { "id": 2, "url": "https://images-na.ssl-images-amazon.com/images/I/81iEJnpQa2L._SX425_.jpg", "nameId": 1 },
+    { "id": 3, "url": "https://www.91-img.com/pictures/laptops/dell/dell-15-5558-555834500iw8blm-core-i3-5th-gen-4-gb-500-gb-windows-8-1-76046-large-1.jpg", "nameId": 1 },
+    { "id": 4, "url": "https://static.toiimg.com/photo/54238544/HP-250-E8D87PA-Laptop-Core-i3-3rd-Gen4-GB500-GBDOS.jpg", "nameId": 1 },
+    { "id": 5, "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ydBr21-meLg2bBQ9pg-jwx0d1dZ5CFUgSyzlUDfUmhvOSt0kxA", "nameId": 1 }
+  ],
+  
   "profile": {
     "name": "typicode"
   }
